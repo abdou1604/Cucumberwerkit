@@ -18,7 +18,7 @@ public class FruitTest {
                         .relaxedHTTPSValidation()
                         .accept(ContentType.JSON)
                         .when()
-                        .get("https://staging.tiered-planet.net/mild-temper/fruits\n")
+                        .get("https://staging.tiered-planet.net/mild-temper/legumes")
                         .then()
                         .assertThat()
                         .body("[0].description", equalTo("Winter fruit"));
