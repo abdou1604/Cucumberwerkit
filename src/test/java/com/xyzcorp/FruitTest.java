@@ -9,12 +9,12 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 
-public class FruitTest {
+    public class FruitTest {
     // Rest-Assured
     //[{"description":"Winter fruit","name":"Apple"} => [0]
     // {"description":"Tropical fruit","name":"Pineapple"}] => [1]
-    @Test
-    public  void testGetFruits () {
+     @Test
+     public  void testGetFruits () {
 
                 given()
                         .relaxedHTTPSValidation()
@@ -33,7 +33,6 @@ public class FruitTest {
                 .put("description","a delecious treat")
                 .put("name","banana");
         //System.out.println(bananaObject);
-
         given()
                 .relaxedHTTPSValidation()
                 .accept(ContentType.JSON)
