@@ -10,7 +10,7 @@ import static io.cucumber.core.options.Constants.GLUE_PROPERTY_NAME;
 
 @Suite
 @IncludeEngines("cucumber")  // tjr
-@SelectClasspathResource("BDD") //  de la feature
+@SelectClasspathResource("BDD") //  dossier de feature
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "cucumberIU") // le nom du package
 public class CucumberTest {
 }

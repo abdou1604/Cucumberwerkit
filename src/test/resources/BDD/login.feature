@@ -7,5 +7,3 @@ Feature: Werk-it creation profile
       | First Name | Last Name | Email | Username | Password |
       | abdessalam | rouabha1 | abdel@gmail.com | abdou | cgi123 |
     Then je vérifie la confirmation  de la creation du profile
-
-  
